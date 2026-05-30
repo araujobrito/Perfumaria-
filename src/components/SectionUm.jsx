@@ -6,7 +6,7 @@ import Imagem from "../assets/principallogo.svg"
 
 function SectionUm(){
     return(
-        <section className={styles.sec}>
+        <section className={styles.sec} id="s1">
             <div className={styles.conteiner}>
                 <div className={styles.imagem}>
                     <img src={Imagem}></img>

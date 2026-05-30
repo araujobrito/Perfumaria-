@@ -5,7 +5,7 @@ import Imagem from "../assets/logo.svg"
 function Header(){
     return(
 
-        <header className={styles.head} >
+        <header className={styles.head}>
             <div className={styles.principal}>
                 <div className={styles.logo}>
                     <img src={Imagem}></img>
@@ -14,9 +14,9 @@ function Header(){
 
                 <div className={styles.links}>
                     <nav className={styles.home}>
-                        <a href="#">Home</a>
-                        <a href="#">Compras</a>
-                        <a href="#">Contatos</a>
+                        <a href="#s1">Home</a>
+                        <a href="#s2">Compras</a>
+                        <a href="#footer">Contatos</a>
                     </nav>
                     
             
